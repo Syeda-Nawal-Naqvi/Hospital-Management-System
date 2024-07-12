@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Records - Cancer Treatment Hospital</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header>
+       <h1>Patient Records</h1>
+    </header>
+ <main>
+        <section>
+            <h2>Enter Patient Details</h2>
+            <form action="PatientRecordsServlet" method="post">
+                <label for="patient-id">Patient ID:</label>
+                <input type="text" id="patient-id" name="patient-id"><br>
+                <label for="patient-name">Patient Name:</label>
+                <input type="text" id="patient-name" name="patient-name"><br>
+                <input type="submit" value="Search">
+            </form>
+            <div id="patient-records-table"></div>
+        </section>
+    </main>
+
+</body>
+</html>
